@@ -6,8 +6,74 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 26px;
+}
+
 .header-container,
 .footer {
     background: #1F2937;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 320px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 320px;
+    gap: 70px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.title-header {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 28px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: 1px solid #3882F6;
+    cursor: pointer;
+}
+
+.image-header {
+    background-color: grey;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
