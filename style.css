@@ -111,3 +111,20 @@ button {
     color: gray;
     text-align: center;
 }
+
+.gray-container {
+    display: flex;
+    flex-direction: column;    
+    padding: 60px 458px;
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
